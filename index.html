@@ -20,27 +20,36 @@
 <body>
 	<!-- Outter Container -->
 	<div class="container">
-		<header> <h1>CRYSTAL COLLECTOR!!!</h1> </header>
+		<header class="jumbotron"> <h1>CRYSTAL COLLECTOR!!!</h1> </header>
 		
 		<!-- How to Play -->
-		<div class="row">
+		<div class="row panel panel-default">
 			<!-- Place instructions here -->
 		</div>
 		
 		<!-- Target and Score row -->
 		<div class="row">
-			<div class="col-6-sm">
-				<h1>Target Score:  <span class="target-score"></span></h1>
+			<div class="col-sm-6"> 
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h1 class="panel-title">Target Score:</h1> 
+					</div>
+					<div class="panel-body target-score"></div>
+				</div>
 			</div>
-			<div class="col-6-sm">
-				<h1> Player Score: <span class="player-score"></span></h1>
+			<div class="col-sm-6">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h1 class="panel-title"> Player Score:</h1>
+					</div>
+					<div class="panel-body player-score"></div>
+				</div>
 			</div>
 		</div>
 
 		<!-- Crystal Buttons -->
 		<div class="row">
-			<!-- crystal buttons go here....use jQuery to create new instances if time permits -->
-			<button class="btn btn-default"><img class="crystal-image blue" src="assets/images/blue.png" alt="crystal-image"></button>
+			<button class="btn btn-default blue"><img class="crystal-image" src="assets/images/blue.png" alt="crystal-image"></button>
 			<button class="btn btn-default"><img class="crystal-image green" src="assets/images/green.png" alt="crystal-image"></button>
 			<button class="btn btn-default"><img class="crystal-image red" src="assets/images/red.png" alt="crystal-image"></button>
 			<button class="btn btn-default"><img class="crystal-image yellow" src="assets/images/yellow.png" alt="crystal-image"></button>
