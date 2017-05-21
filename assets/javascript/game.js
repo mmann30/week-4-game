@@ -2,8 +2,6 @@
 
 // Programmer Notes:  Game works but code could use refactoring, too much repetition.
 // Possible additions:  Win/Loss tracker; 
-// Improve graphics: apply cave theme?
-
 
 // Variables
 var targetScore;
