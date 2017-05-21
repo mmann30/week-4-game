@@ -1,5 +1,10 @@
 // Crystal Collector JS
 
+// Programmer Notes:  Game works but code could use refactoring, too much repetition.
+// Possible additions:  Win/Loss tracker; 
+// Improve graphics: apply cave theme? change cursor image to pickaxe (can that be done in JS?)
+
+
 // Variables
 var targetScore;
 var playerScore;
@@ -31,7 +36,7 @@ function reset(){
 	$(".target-score").html(targetScore);
 	$(".player-score").html(playerScore);
 }
-
+ 
 reset();
 
 	// Incriments score by crystal value
@@ -51,16 +56,40 @@ reset();
 	$(".green").on("click", function(){
 		playerScore += greenCrystal;
 		$(".player-score").html(playerScore);
+
+		if(playerScore === targetScore){
+			alert("Congratulations! You Win!");
+			reset();
+		} else if (playerScore > targetScore){
+			alert("You lose");
+			reset();
+		}
 	});
 
 	$(".red").on("click", function(){
 		playerScore += redCrystal;
 		$(".player-score").html(playerScore);
+		
+		if(playerScore === targetScore){
+			alert("Congratulations! You Win!");
+			reset();
+		} else if (playerScore > targetScore){
+			alert("You lose");
+			reset();
+		}
 	});
 
 	$(".yellow").on("click", function(){
 		playerScore += yellowCrystal;
 		$(".player-score").html(playerScore);
+		
+		if(playerScore === targetScore){
+			alert("Congratulations! You Win!");
+			reset();
+		} else if (playerScore > targetScore){
+			alert("You lose");
+			reset();
+		}
 	});
 
 
