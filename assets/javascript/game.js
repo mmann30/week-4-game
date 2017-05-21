@@ -1,6 +1,7 @@
 // Crystal Collector JS
 
 // Programmer Notes:  Game works but code could use refactoring, too much repetition.
+// Create crystals as objects and instantiate via jQuery?
 // Possible additions:  Win/Loss tracker; 
 
 // Variables
