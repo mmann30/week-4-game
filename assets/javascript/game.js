@@ -2,7 +2,7 @@
 
 // Programmer Notes:  Game works but code could use refactoring, too much repetition.
 // Possible additions:  Win/Loss tracker; 
-// Improve graphics: apply cave theme? change cursor image to pickaxe (can that be done in JS?)
+// Improve graphics: apply cave theme?
 
 
 // Variables

@@ -1,1 +1,12 @@
+/*  Crystal Collector CSS Styling*/
+body { 
+	background-image: url(../images/cave.jpg);
+	background-size: 100% auto;	
+}
+
+.jumbotron{ opacity: 0.6; }
+
+button { background-opacity: 0.3; }
+
+.btn{ cursor: url(../images/pickaxe.cur), auto; }
 
